@@ -7,8 +7,8 @@ Creating Vision Transformer model replicating the paper - https://arxiv.org/abs/
 3. Split images data into patches and creating the class, position and patch embeddings (Equation 1)
 4. Implement MSA block (Multihead Self-Attention), with 12 heads and including LayerNorm as well (Equation 2)
 5. Implement MLP block (Multilayer Perceptron), which includes 2 layers with GeLU non-linearity, and LayerNorm as well (Equation 3)
-6. Create the Transformer Encoder block, with 12 encoder layers
-7. Get the classification output Y from the prepended learnable encoding Z0
+6. Get the classification output Y from the prepended learnable encoding Z0 (Equation 4)
+7. Create the Transformer Encoder block, with 12 encoder layers
 8. Plot the loss curves
 9. Save the model if accuracy is satisfactory
 
