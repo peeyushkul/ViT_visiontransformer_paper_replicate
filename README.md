@@ -1,7 +1,7 @@
 # ViT_visiontransformer_paper_replicate
 Creating Vision Transformer model replicating the paper - https://arxiv.org/abs/2010.11929
 
-**Broad Steps**
+**Broad Steps:**
 1. Break the main ViT paper into 4 key equations to be implemented
 2. Get data and create the datasets and dataloaders
 3. Split images data into patches and creating the class, position and patch embeddings (Equation 1)
