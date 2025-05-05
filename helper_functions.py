@@ -260,7 +260,7 @@ def download_data(source: str,
         pathlib.Path to downloaded data.
     
     Example usage:
-        download_data(source="https://github.com/mrdbourke/pytorch-deep-learning/raw/main/data/pizza_steak_sushi.zip",
+        download_data(source="https://github.com/peeyushkul/ViT_visiontransformer_paper_replicate/raw/main/data/pizza_steak_sushi.zip",
                       destination="pizza_steak_sushi")
     """
     # Setup path to data folder
