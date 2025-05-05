@@ -13,6 +13,7 @@ Creating Vision Transformer model replicating the paper - https://arxiv.org/abs/
 9. Save the model if accuracy is satisfactory
 
 **Details of files:**
+* `ViT_vision_transformer_paper_replicate.ipynb` - the main file for paper replication. Opens in google colab or jupyter notebook
 * `data_setup.py` - a file to prepare and download data if needed.
 * `engine.py` - a file containing various training functions.
 * `model_builder.py` - a file to create a PyTorch TinyVGG model.
